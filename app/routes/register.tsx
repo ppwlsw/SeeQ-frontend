@@ -75,10 +75,10 @@ function validateInput(formData : FormData) {
 
 export default function Register() {
   return (
-    <div className="h-screen flex flex-col justify-end bg-primary-dark-50">
-      <div className="flex items-center justify-center absolute top-[-70px] w-full h-1/2">
+    <div className="h-screen flex flex-col justify-end bg-primary-dark-50 overflow-hidden">
+      <div className="flex justify-center absolute top-[5%] w-full">
         <img
-          src="/public/register-logo.png"
+          src="/register-logo.png"
           alt="logo"
           className="h-60 w-auto"
         />
@@ -90,8 +90,8 @@ export default function Register() {
           ลงทะเบียน
           </p>
         </div>
-        <div className="col-start-1 row-start-1">
-          <div className="mt-16">
+        <div className="col-start-1 row-start-1 h-full">
+          <div className="mt-16 h-full">
             <FetcherForm />
           </div>
           
@@ -107,10 +107,10 @@ function FetcherForm() {
   return (
     <fetcher.Form
       method="POST"
-      className="flex flex-col bg-white border w-svw shadow-lg shadow-black/80 rounded-t-[40px]"
+      className="flex flex-col bg-white border w-full shadow-lg shadow-black/80 rounded-t-[40px] h-full"
     >
       <div
-        className="flex flex-col items-center justify-center h-full w-full p-16 pt-8 pb-8
+        className="flex flex-col items-center justify-center h-full w-full p-16 pt-8
             [&>div]:w-full gap-6"
       >
         <InputForm name="email" type="text" label="อีเมล" placeholder="อีเมล" />
