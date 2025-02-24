@@ -65,7 +65,7 @@ const MerchantNav = () => {
       {/* Main Content Area */}
       <div className="flex-1 flex flex-col">
         {/* Top Navbar */}
-        <header className="h-16 border-b border-gray-200 px-6 flex items-center justify-between bg-white">
+        <header className="border-b border-gray-200 px-6 py-3 flex items-center justify-between bg-white">
           <h1 className="text-xl font-semibold">{getCurrentPageTitle()}</h1>
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-3">
@@ -85,7 +85,7 @@ const MerchantNav = () => {
         </header>
 
         {/* Page Content */}
-        <main className="flex-1 p-6 bg-gray-50">
+        <main className="flex-1 p-6 bg-gray-50 overflow-hidden">
           <Outlet />
         </main>
       </div>
