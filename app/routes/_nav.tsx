@@ -1,4 +1,4 @@
-import { Link, Outlet } from '@remix-run/react';
+import { Link, Outlet } from 'react-router';
 import { AlignJustify } from 'lucide-react';
 import { useState } from 'react';
 import SidebarMenu from '~/components/sidebar-menu';

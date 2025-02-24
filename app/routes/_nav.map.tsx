@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
-import MarkerPopup, { MarkerData } from "~/components/marker_popup";
+import MarkerPopup,{ type MarkerData } from "~/components/marker_popup";
 import { Loader2 } from "lucide-react";
-import { icon } from "leaflet";
 
 function MapPage() {
   const [selectedPlace, setSelectedPlace] = useState<MarkerData | null>(null);

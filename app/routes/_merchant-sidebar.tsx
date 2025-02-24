@@ -1,5 +1,4 @@
-import React from "react";
-import { Outlet, Link, useLocation } from "@remix-run/react";
+import { Outlet, Link, useLocation } from "react-router";
 import { ChartSpline, UsersRound, Pencil, Bell } from "lucide-react";
 import { SidebarItem } from "~/components/merchant-sidebar-item";
 

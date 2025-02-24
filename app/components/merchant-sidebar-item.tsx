@@ -1,5 +1,6 @@
-import { Link, useLocation } from "@remix-run/react";
-import { ReactNode } from "react";
+import type { ReactNode } from "react";
+import { Link, useLocation } from "react-router";
+
 
 interface SidebarItemProps {
   icon: ReactNode;

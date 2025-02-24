@@ -1,4 +1,4 @@
-import { Link, useFetcher } from "@remix-run/react";
+import { Link, useFetcher } from "react-router";
 
 export default function SuccessfulRegister() {
   const fetcher = useFetcher();

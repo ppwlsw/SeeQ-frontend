@@ -1,5 +1,4 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 import { MapPin, Users, Clock } from "lucide-react";
 import { marker } from "framer-motion/m";
 
